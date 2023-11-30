@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 /*
 ===============================================================================
@@ -50,7 +51,21 @@ namespace ProgrammingExercisesIST
             string choice = MainMenu();
 
             // Write your code here
+            if (choice == "1")
+            {
+                            else If(choice == "2")
+            }
+            else
+            {
 
+
+            }
+            ErrorMsssage("Invalid choice");
+            { 
+
+                
+
+            
 
             // Wait for key press before exiting
             WaitForKeyPress();

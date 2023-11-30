@@ -35,7 +35,7 @@ namespace ProgrammingExercisesIST
             WaitBetween("From 5 to 15:");
 
             // 1. Fix the following FOR loop so that it prints from 5 to 15
-            for (int i = 9999; i < 9999; i++)
+            for (int i = 5; i < 16; i++)
             {
                 Console.WriteLine(i);
             }
@@ -54,7 +54,7 @@ namespace ProgrammingExercisesIST
             for (int count = 90; count <=100; count++)
             {
                 Console.WriteLine(count);
-            }
+            }   
 
             WaitBetween("From 60 down to 30 by three's:");
 
@@ -102,3 +102,11 @@ FEEDBACK AREA: Paste your AI feedback here before submission:
 
 ===============================================================================
 */
+
+
+
+
+for (int i = ; i < 10; i++)
+{
+
+}

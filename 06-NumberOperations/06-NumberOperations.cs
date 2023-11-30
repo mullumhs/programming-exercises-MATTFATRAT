@@ -53,8 +53,18 @@ namespace ProgrammingExercisesIST
             double x = Convert.ToDouble(Console.ReadLine());
 
             // Your code goes below here
+            Console.WriteLine("Please enter a number for y:");
+            double y = Convert.ToDouble(Console.ReadLine());
+            //Operations
+            Console.WriteLine($"the sum of {x} and {y}) is {x + y}");
+            
+            Console.WriteLine($"the product of {x} and {y}) is {x * y}");
 
-        }
+            Console.WriteLine($"the difference of {x} and {y}) is {x - y}");
+
+            Console.WriteLine($"the Quotient of {x} and {y}) is {x / y}");
+            Console.ReadLine()
+        } 
     }
 }
 

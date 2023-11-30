@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 /*
 ===============================================================================
@@ -53,6 +54,18 @@ namespace ProgrammingExercisesIST
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
+           
+            if (mark >= 50)
+            {
+                Console.WriteLine("Pass.");
+            }
+            else if (mark < 50)
+            {
+                Console.WriteLine("Fail.");
+            }
+
+            Console.ReadLine();
+
 
         }
     }

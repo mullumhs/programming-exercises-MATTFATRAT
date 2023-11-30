@@ -31,8 +31,8 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
-        }
+            Console.Beep(32767, 5000000);
+            Console.ReadLine();
     }
 }
 
@@ -41,7 +41,7 @@ namespace ProgrammingExercisesIST
 FEEDBACK AREA: Paste your AI feedback here before submission:
 ===============================================================================
 
-
+    dog shit
 
 ===============================================================================
 */

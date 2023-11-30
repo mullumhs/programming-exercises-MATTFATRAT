@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 /*
 ===============================================================================
@@ -44,8 +45,31 @@ namespace ProgrammingExercisesIST
         {
             // Ask the user to pick a door
             Console.WriteLine("Pick a Door: 1, 2 or 3");
-
+            int door = Convert.ToInt32(Console.ReadLine());
             // Your code goes below here
+
+            if (door == 1)
+                Console.WriteLine("you have been touched");
+            
+            else if (door == 2)
+                    Console.WriteLine("you are dead");
+
+            
+            else if (door == 3)
+                Console.WriteLine("you won 10 bucks from jet!");
+
+            Console.ReadLine();
+             
+           
+
+
+
+
+
+
+
+
+
 
         }
     }

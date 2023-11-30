@@ -30,7 +30,7 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
-            // Your code here
+            god i hate jet
 
         }
     }

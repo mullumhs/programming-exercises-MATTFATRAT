@@ -72,7 +72,19 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Write your code here
+            string choice = ChooseConversion
 
+            if (choice == "1");
+            {
+                double km = ConvertCelciustoFarenhight  poo poo bum bum
+            }
+            
+         
+       
+                
+        
+        
+        
         }
     }
 }
